@@ -3,7 +3,7 @@
 --== CONFIGURATION ==--
 local ownerKey = "defyowner123" -- 🔑 Owner master key
 local linkKeyURL = "https://link-center.net/3580259/I5vjJUmR6YbL" -- 🔗 Link key (for normal users)
-local scriptURL = "https://your-main-script-link.com/script.lua" -- 🧠 Your main script
+local scriptURL = "https://pastebin.com/raw/UD080vhg" -- 🧠 Your main script
 
 --== SERVICES ==--
 local Players = game:GetService("Players")
