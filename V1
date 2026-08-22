@@ -20,7 +20,10 @@ local Config = {
     MaxKeyLength = 50,
     AnimationSpeed = 0.4,
     ParticleCount = 60,
-    ParticleSpeed = 60
+    ParticleSpeed = 60,
+
+    -- Change this to your own testing key.
+    ValidKey = "DEV-TEST-123"
 }
 
 -- ========================================
