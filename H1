@@ -2,7 +2,8 @@
 local ownerKey = "defyowner123" -- 🔑 Owner master key
 local linkKeyURL = "https://link-center.net/3580259/I5vjJUmR6YbL" -- 🔗 Link key (for normal users)
 local scriptURL = "https://pastebin.com/raw/UD080vhg" -- 🧠 Your main script
-
+local testingKey = "DEV-TEST-123"
+local devKey = "DEV-KEY-123"
 --== SERVICES ==--
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
@@ -123,3 +124,23 @@ submit.MouseButton1Click:Connect(function()
 		end
 	end
 end)
+
+
+
+
+
+if keyInput == ownerKey then
+    message.Text = "👑 Owner Key Accepted!"
+    -- load main script
+
+elseif keyInput == devKey then
+    message.Text = "🛠️ Developer Key Accepted!"
+    -- load main script
+
+elseif keyInput == testingKey then
+    message.Text = "🧪 Testing Key Accepted!"
+    -- load main script
+
+else
+    message.Text = "❌ Invalid Key. Try again!"
+end
