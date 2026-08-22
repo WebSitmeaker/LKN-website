@@ -1,5 +1,3 @@
---// free Key system by me
-
 --== CONFIGURATION ==--
 local ownerKey = "defyowner123" -- 🔑 Owner master key
 local linkKeyURL = "https://link-center.net/3580259/I5vjJUmR6YbL" -- 🔗 Link key (for normal users)
